@@ -16,7 +16,7 @@ const AccordionLayout = () => {
   return (
     <div className='accordionLayoutWrapper'>
       <h1 className="accordionLayoutTitle">가위바위보게임을 만들어보자!</h1>
-      <div className='accordionLayoutContentsWrap' ref={ClassComponentRef}>
+      <div className='accordionLayoutContentsWrap open' ref={ClassComponentRef}>
         <h2 className="accordionLayoutContentsTitle" onClick={() => accordianToggle(ClassComponentRef)}>클래스 컴포넌트로 만들기<i>&nbsp;</i></h2>
         <div className='accordionLayoutContents'>
         <ClassComponent />

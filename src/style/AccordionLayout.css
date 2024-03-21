@@ -5,8 +5,7 @@
   .accordionLayoutTitle{
     font-size:40px;
     line-height:200px;
-    text-align:center;
-    
+    text-align:center;  
   }
   .accordionLayoutContentsWrap{
     margin-top:20px;
@@ -43,7 +42,6 @@
     &.open{
       .accordionLayoutContentsTitle{
         background:#ffc107;
-        /* color:white; */
         i{
           transform: rotate(-180deg);
         }
