@@ -19,7 +19,7 @@ const BUTTON_ARR = [
 // TODO: 컴포넌트 분리 후 props로 속성 나누기
 // TODO: ARR에 이름 넣어주기
 
-function Self() {
+function FunctionalComponentSelf() {
   ///// 🤔❓ 근데 이렇게 useState를 주렁주렁 써도 될지.....흠
   const [ yourNum, setYourNum ] = useState(null);
   const [ computersNum, setComputersNum ] = useState(null);
@@ -104,4 +104,4 @@ function Self() {
   );
 }
 
-export default Self;
+export default FunctionalComponentSelf;

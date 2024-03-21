@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/Reset.css';
-import Task from './Task1_2';
-import Self from './Task1_2_Self';
+import AccordionLayout from './AccordionLayout';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Task />
-    <Self />
+    <AccordionLayout />
   </React.StrictMode>
 );
 

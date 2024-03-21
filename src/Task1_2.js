@@ -21,9 +21,7 @@ const choice = {
 const youImage = ['https://blog.kakaocdn.net/dn/efKI7t/btq4oytEOLR/SlkACBfcSFeIKOqb9qqUj1/img.jpg'];
 const computerImage = 'https://i.namu.wiki/i/ShTzcoMeHE4voCN_b3hTBqixr8Z2NO_O8XEIFIhN3_7rbIfSdq0hUfUw5GJJoF55QatW6GRiwpI9qbX3tI0Mlg.webp';
 
-
-
-function Task() {
+function FunctionalComponent() {
   const [userSelect, setUserSelect] = useState(null);
   const [computerSelect, setComputerSelect] = useState(null);
   const [result, setResult] = useState(null);
@@ -75,4 +73,4 @@ function Task() {
   );
 }
 
-export default Task;
+export default FunctionalComponent;

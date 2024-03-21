@@ -1,0 +1,59 @@
+.accordionLayoutWrapper{
+  width:90%;
+  min-width:1600px;
+  margin:0 auto;
+  .accordionLayoutTitle{
+    font-size:40px;
+    line-height:200px;
+    text-align:center;
+    
+  }
+  .accordionLayoutContentsWrap{
+    margin-top:20px;
+    .accordionLayoutContentsTitle{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      width:100%;
+      padding:30px;
+      box-sizing: border-box;
+      font-size:20px;
+      background:#ffeb3b;
+      box-sizing:border-box;
+      border:2px solid black;
+      cursor: pointer;
+      transition: background ease 300ms;
+      i{
+        display:block;
+        width:30px;
+        height:30px;
+        background:url('https://www.freeiconspng.com/thumbs/arrow-down-icon-png/arrow-down-icon-png-3.png') 50% 50% no-repeat;
+        background-size:cover;
+        transition: transform ease 300ms;
+      }
+    }
+    .accordionLayoutContents{
+      max-height:0;
+      border-width:0 2px 2px 2px;
+      border-style:solid;
+      border-color:transparent;
+      overflow:hidden;
+      transition: max-height ease 300ms;
+    }
+    &.open{
+      .accordionLayoutContentsTitle{
+        background:#ffc107;
+        /* color:white; */
+        i{
+          transform: rotate(-180deg);
+        }
+      }
+      .accordionLayoutContents{
+        max-height:2000px;
+        box-sizing:border-box;
+        border-color:black;
+      }
+    }
+  }
+}
+
