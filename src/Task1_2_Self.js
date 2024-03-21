@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './Task1_2_Self.css';
+import './style/Task1_2_Self.css';
 
 // 사용자가 선택하는 버튼의 값
 const BUTTON_ARR = [

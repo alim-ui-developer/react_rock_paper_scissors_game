@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './Reset.css';
+import './style/Reset.css';
 import Task from './Task1_2';
 import Self from './Task1_2_Self';
 import reportWebVitals from './reportWebVitals';

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Task1_2.css';
+import './style/Task1_2.css';
 import Box from './component/Task1_2_Box';
 
 const choice = {
